@@ -1,7 +1,7 @@
-from sqlalchemy import create_engine
 import pandas as pd
+from sqlalchemy import create_engine
+from secrets import *
 
-DATABASE_URL = 'postgres://carlpan66:WAMozart66@localhost/nycdata'
 engine = create_engine(DATABASE_URL)
 
 df = pd.read_csv('NYC_Jobs.csv')
