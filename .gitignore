@@ -1,0 +1,6 @@
+CountingVitae/resume.txt
+CountingVitae/*.pyc
+Competitions/test.py
+Competitions/secrets.py
+Competitions/venv
+Competitions/*.pyc
